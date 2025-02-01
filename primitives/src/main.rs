@@ -1,5 +1,6 @@
 mod primitives_literals;
 mod primitives_tuples;
+mod primitives_arrays;
 
 //  https://doc.rust-lang.org/rust-by-example/primitives.html
 //  (variables are prefixed with _ because warnings clutter the screen otherwise)
@@ -39,4 +40,5 @@ fn main() {
 
     primitives_literals::main();
     primitives_tuples::main();
+    primitives_arrays::main();
 }
